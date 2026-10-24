@@ -1,0 +1,32 @@
+
+/* React Icons Alignment */
+
+.post-card-public,
+.post-card-stats > span,
+.home-refresh,
+.home-pagination button,
+.home-quick-links a {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.home-right-card a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.post-card-actions a,
+.post-card-count {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.home-sidebar-links a svg,
+.home-quick-links a svg,
+.post-card-actions svg {
+  flex-shrink: 0;
+}
